@@ -17,7 +17,7 @@
     '.leistung',
     '.partner__title',
     '.partner__list li',
-    '.galerie__item',
+    '.galerie__wall .photo-frame',
     '.aktion',
     '.kontakt__col',
   ];

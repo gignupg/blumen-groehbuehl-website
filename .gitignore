@@ -1,0 +1,5 @@
+# QA tooling — not part of the site
+shots/
+shoot.py
+__pycache__/
+*.pyc

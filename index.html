@@ -87,10 +87,20 @@
         </div>
       </div>
 
-      <figure class="hero__figure">
-        <img src="./photos/raumdeko_03.jpg" alt="Florale Raumdekoration aus dem Hause Gröhbühl" loading="eager">
-        <figcaption>Raumdekoration · Eigenarbeit</figcaption>
-      </figure>
+      <div class="hero__collage">
+        <figure class="hero__snap hero__snap--1 photo-frame">
+          <img class="photo" src="./photos/ladenraeume_01.jpg" width="358" height="288" style="--w:358px" alt="Im Laden" loading="eager">
+          <figcaption>Im Laden</figcaption>
+        </figure>
+        <figure class="hero__snap hero__snap--2 photo-frame">
+          <img class="photo" src="./photos/hochzeit_03.jpg" width="196" height="288" style="--w:196px" alt="Brautstrauß" loading="eager">
+          <figcaption>Brautstrauß</figcaption>
+        </figure>
+        <figure class="hero__snap hero__snap--3 photo-frame">
+          <img class="photo" src="./photos/raumdeko_04.jpg" width="408" height="278" style="--w:340px" alt="Raumdekoration" loading="eager">
+          <figcaption>Raumdekoration</figcaption>
+        </figure>
+      </div>
 
       <div class="hero__corner" aria-hidden="true">
         <svg viewBox="0 0 120 120">
@@ -196,7 +206,9 @@
       <div class="leistungen__grid">
 
         <article class="leistung leistung--feature">
-          <div class="leistung__photo"><img src="./photos/hochzeit_03.jpg" alt="Brautstrauß"></div>
+          <figure class="leistung__photo photo-frame">
+            <img class="photo" src="./photos/hochzeit_03.jpg" width="196" height="288" style="--w:196px" alt="Brautstrauß">
+          </figure>
           <div class="leistung__text">
             <span class="leistung__num">01</span>
             <h3>Hochzeit</h3>
@@ -210,42 +222,54 @@
         </article>
 
         <article class="leistung">
-          <div class="leistung__photo"><img src="./photos/trauerschmuck_03.jpg" alt="Trauergesteck"></div>
+          <figure class="leistung__photo photo-frame">
+            <img class="photo" src="./photos/trauerschmuck_03.jpg" width="162" height="358" style="--w:162px" alt="Trauergesteck">
+          </figure>
           <span class="leistung__num">02</span>
           <h3>Trauerschmuck</h3>
           <p><strong>Blumen spenden Trost.</strong> Wir gestalten für Sie individuell Sarg- und Urnenschmuck, Leichenhallendekoration, Trauerspenden und Gestecke zu den Gedenktagen.</p>
         </article>
 
         <article class="leistung">
-          <div class="leistung__photo"><img src="./photos/schnittblumen_01.jpg" alt="Schnittblumen"></div>
+          <figure class="leistung__photo photo-frame">
+            <img class="photo" src="./photos/schnittblumen_01.jpg" width="357" height="288" style="--w:300px" alt="Schnittblumen">
+          </figure>
           <span class="leistung__num">03</span>
           <h3>Schnittblumen</h3>
           <p>Bevorzugt regionale Blumen der Saison. Im Winter qualitativ hochwertige Ware aus dem Ausland mit dem <em>Flower-Label</em>. Bei ausgefallenen Wünschen empfehlen wir eine Vorbestellung von 2–3 Tagen.</p>
         </article>
 
         <article class="leistung">
-          <div class="leistung__photo"><img src="./photos/tischdeko_04.jpg" alt="Tischdekoration"></div>
+          <figure class="leistung__photo photo-frame">
+            <img class="photo" src="./photos/tischdeko_04.jpg" width="408" height="202" style="--w:340px" alt="Tischdekoration">
+          </figure>
           <span class="leistung__num">04</span>
           <h3>Tischdekoration</h3>
           <p>Saisonale Tischkonzepte für Restaurants, Privatfeiern und Geschäftsanlässe — vom intimen Couvert bis zur langen Tafel.</p>
         </article>
 
         <article class="leistung">
-          <div class="leistung__photo"><img src="./photos/raumdeko_01.jpg" alt="Raumdekoration"></div>
+          <figure class="leistung__photo photo-frame">
+            <img class="photo" src="./photos/raumdeko_01.jpg" width="208" height="300" style="--w:208px" alt="Raumdekoration">
+          </figure>
           <span class="leistung__num">05</span>
           <h3>Raumdekoration</h3>
           <p>Florale Raumkonzepte für Foyer, Empfang, Schaufenster oder Veranstaltung. Vom einzelnen Akzent bis zur durchkomponierten Inszenierung.</p>
         </article>
 
         <article class="leistung">
-          <div class="leistung__photo"><img src="./photos/raumbegruenung_02.jpg" alt="Hydrokultur"></div>
+          <figure class="leistung__photo photo-frame">
+            <img class="photo" src="./photos/raumbegruenung_02.jpg" width="128" height="187" style="--w:128px" alt="Hydrokultur">
+          </figure>
           <span class="leistung__num">06</span>
           <h3>Raumbegrünung</h3>
           <p>Individuell zusammengestellte Hydrokulturen für Geschäfts- oder Privaträume — auf Wunsch inklusive regelmäßiger Pflege nach vertraglicher Vereinbarung.</p>
         </article>
 
         <article class="leistung">
-          <div class="leistung__photo"><img src="./photos/keramik_02.jpg" alt="Keramik"></div>
+          <figure class="leistung__photo photo-frame">
+            <img class="photo" src="./photos/keramik_02.jpg" width="128" height="188" style="--w:128px" alt="Keramik">
+          </figure>
           <span class="leistung__num">07</span>
           <h3>Keramik</h3>
           <p>Trendiges Design, modische Farben. Glasklar und schlicht oder matt veredelt. Edle Terracotta für drinnen und draußen.</p>
@@ -308,19 +332,22 @@
         <h2 class="section-title">Galerie</h2>
       </header>
 
-      <div class="galerie__grid">
-        <figure class="galerie__item galerie__item--tall"><img src="./photos/hochzeit_01.jpg" alt="Hochzeitsfloristik"></figure>
-        <figure class="galerie__item"><img src="./photos/raumdeko_04.jpg" alt="Raumdekoration"></figure>
-        <figure class="galerie__item"><img src="./photos/trauerschmuck_05.jpg" alt="Trauerschmuck"></figure>
-        <figure class="galerie__item galerie__item--wide"><img src="./photos/tischdeko_02.jpg" alt="Tischdekoration"></figure>
-        <figure class="galerie__item"><img src="./photos/ladenraeume_02.jpg" alt="Ladenräume"></figure>
-        <figure class="galerie__item galerie__item--tall"><img src="./photos/raumbegruenung_01.jpg" alt="Hydrokultur"></figure>
-        <figure class="galerie__item"><img src="./photos/keramik_03.jpg" alt="Keramik"></figure>
-        <figure class="galerie__item"><img src="./photos/tischdeko_05.jpg" alt="Tischdekoration"></figure>
-        <figure class="galerie__item galerie__item--wide"><img src="./photos/raumdeko_03.jpg" alt="Raumdekoration"></figure>
-        <figure class="galerie__item"><img src="./photos/hochzeit_02.jpg" alt="Hochzeitsfloristik"></figure>
-        <figure class="galerie__item"><img src="./photos/trauerschmuck_06.jpg" alt="Trauerschmuck"></figure>
-        <figure class="galerie__item"><img src="./photos/raumbegruenung_04.jpg" alt="Hydrokultur"></figure>
+      <div class="galerie__wall">
+        <figure class="photo-frame"><img class="photo" src="./photos/ladenraeume_02.jpg" width="358" height="288" style="--w:280px" alt="Im Laden" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/hochzeit_01.jpg" width="158" height="288" style="--w:158px" alt="Brautstrauß" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/raumdeko_04.jpg" width="408" height="278" style="--w:320px" alt="Raumdekoration" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/trauerschmuck_05.jpg" width="178" height="358" style="--w:178px" alt="Trauerschmuck" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/tischdeko_02.jpg" width="240" height="408" style="--w:200px" alt="Tischdekoration" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/raumbegruenung_01.jpg" width="128" height="255" style="--w:128px" alt="Hydrokultur" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/keramik_03.jpg" width="128" height="166" style="--w:128px" alt="Keramik" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/tischdeko_05.jpg" width="318" height="258" style="--w:260px" alt="Tischdekoration" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/hochzeit_02.jpg" width="231" height="258" style="--w:200px" alt="Brautstrauß" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/raumdeko_03.jpg" width="208" height="278" style="--w:208px" alt="Raumdekoration" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/trauerschmuck_06.jpg" width="192" height="238" style="--w:192px" alt="Trauerschmuck" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/raumbegruenung_04.jpg" width="158" height="223" style="--w:158px" alt="Hydrokultur" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/ladenraeume_03.jpg" width="358" height="287" style="--w:260px" alt="Im Laden" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/tischdeko_03.jpg" width="308" height="258" style="--w:240px" alt="Tischdekoration" loading="lazy"></figure>
+        <figure class="photo-frame"><img class="photo" src="./photos/keramik_04.jpg" width="128" height="186" style="--w:128px" alt="Keramik" loading="lazy"></figure>
       </div>
     </section>
 
